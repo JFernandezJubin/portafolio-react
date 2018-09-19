@@ -3,7 +3,8 @@ import React from 'react';
 const ListItem = props => {
     return (
         <li style={{
-            display: 'inline'
+            display: 'inline',
+            
         }}>
             <a href={props.href}>
                 <b>{props.title}</b>
