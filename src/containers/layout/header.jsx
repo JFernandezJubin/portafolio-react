@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 import { Logo } from '../../components/icons/icons';
-import { ListItem } from '../../components/header/navbar';
+import { UList } from '../../components/header/navbar';
+import Data from '../../data/header/navbar.json';
 
 class Header extends Component {
     render() {
         return (
             <div>
                 <Logo size='70' viewBox='70' />
-                <ListItem title='Language'/>
-                <ListItem title='Blog'/>
-                <ListItem title='Contact'/>
-                <ListItem title='Social'/>
+                <UList listItem={Data.navBarButtons}/>
             </div>
         );
     }

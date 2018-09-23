@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'ofg';
+    src:  url('../fonts/ofg.eot');
+    src:  url('../fonts/ofg.eot') format('embedded-opentype'),
+          url('../fonts/ofg.ttf') format('truetype'),
+          url('../fonts/ofg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="ofg-"], [class*=" ofg-"] {
+    font-family: 'ofg' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .ofg-platzi:before {
+    content: "\e913";
+  }
+  .ofg-uplabs:before {
+    content: "\e900";
+  }
+  .ofg-envato:before {
+    content: "\e901";
+  }
+  .ofg-logopond:before {
+    content: "\e902";
+  }
+  .ofg-freelancer:before {
+    content: "\e903";
+  }
+  .ofg-designcontest:before {
+    content: "\e904";
+  }
+  .ofg-medium:before {
+    content: "\e905";
+  }
+  .ofg-bitbucket:before {
+    content: "\e906";
+  }
+  .ofg-codepen:before {
+    content: "\e907";
+  }
+  .ofg-email:before {
+    content: "\e911";
+  }
+  .ofg-blogger:before {
+    content: "\e912";
+  }
+  .ofg-brand:before {
+    content: "\e912";
+  }
+  .ofg-social:before {
+    content: "\e912";
+  }
+  .ofg-pinterest:before {
+    content: "\e908";
+  }
+  .ofg-wordpress:before {
+    content: "\e909";
+  }
+  .ofg-stackoverflow:before {
+    content: "\e90a";
+  }
+  .ofg-github:before {
+    content: "\e90b";
+  }
+  .ofg-youtube:before {
+    content: "\e90c";
+  }
+  .ofg-linkedin:before {
+    content: "\e90d";
+  }
+  .ofg-facebook:before {
+    content: "\e90e";
+  }
+  .ofg-google:before {
+    content: "\e90f";
+  }
+  .ofg-twitter:before {
+    content: "\e910";
+  }

@@ -1,0 +1,45 @@
+{
+    "navBarButtons": [
+        {
+            "title": "Idioma",
+            "href": "",
+            "id": "0",
+            "dropdown_type": 0,
+            "dropdown": [
+                {
+                    "title": "Español",
+                    "href": "",
+                    "id": "0.0",
+                    "dropdown_type": null
+                },
+                {
+                    "title": "Ingles",
+                    "href": "",
+                    "id": "0.1",
+                    "dropdown_type": null
+                }
+            ]
+        },
+        {
+            "title": "Blog",
+            "href": "",
+            "id": "1",
+            "dropdown_type": null,
+            "dropdown": null
+        },
+        {
+            "title": "Contacto",
+            "href": "",
+            "id": "2",
+            "dropdown_type": null,
+            "dropdown": null
+        },
+        {
+            "title": "Social",
+            "href": "",
+            "id": "3",
+            "dropdown_type": 1,
+            "dropdown": []
+        }
+    ]
+}
