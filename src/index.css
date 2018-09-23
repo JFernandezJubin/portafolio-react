@@ -1,0 +1,150 @@
+.ListItem{
+    display: inline;
+    position: relative;
+}
+    .ListItem a {
+        padding: .375rem 1rem;
+        position: relative;
+        cursor: pointer;
+        text-decoration: none;
+        color: #4a4a4a;
+        color: var(--principalGray);
+    }
+    .ListItem a:hover {
+        background-color: #f5f5f5;
+        background-color: var(--secondGray);
+        border-top: 1.5px solid #ded706;
+        border-top: 1.5px solid var(--omarefgYellow);
+    }
+.UList, .Dropdown {
+    text-decoration: none;
+    list-style: none;
+}
+.Dropdown {
+    position: absolute;
+    display: block;
+    left: 0;
+    min-width: 12rem;
+    padding-top: 4px;
+    position: absolute;
+    top: 100%;
+    z-index: 20;
+}
+.DropdownListItem {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.1);
+}
+.DropdownListItem a {
+        display: block;
+        font-size: .875rem;
+        padding: .375rem 1rem;
+        position: relative;
+        cursor: pointer;
+        text-decoration: none;
+        color: #4a4a4a;
+        color: var(--principalGray);
+    }
+@font-face {
+    font-family: 'ofg';
+    src:  url('styles/fonts/ofg.eot');
+    src:  url('styles/fonts/ofg.eot') format('embedded-opentype'),
+          url('styles/fonts/ofg.ttf') format('truetype'),
+          url('styles/fonts/ofg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+[class^="ofg-"], [class*=" ofg-"] {
+    font-family: 'ofg' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-feature-settings: normal;
+            font-feature-settings: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.ofg-platzi:before {
+    content: "\e913";
+  }
+.ofg-uplabs:before {
+    content: "\e900";
+  }
+.ofg-envato:before {
+    content: "\e901";
+  }
+.ofg-logopond:before {
+    content: "\e902";
+  }
+.ofg-freelancer:before {
+    content: "\e903";
+  }
+.ofg-designcontest:before {
+    content: "\e904";
+  }
+.ofg-medium:before {
+    content: "\e905";
+  }
+.ofg-bitbucket:before {
+    content: "\e906";
+  }
+.ofg-codepen:before {
+    content: "\e907";
+  }
+.ofg-email:before {
+    content: "\e911";
+  }
+.ofg-blogger:before {
+    content: "\e912";
+  }
+.ofg-brand:before {
+    content: "\e912";
+  }
+.ofg-social:before {
+    content: "\e912";
+  }
+.ofg-pinterest:before {
+    content: "\e908";
+  }
+.ofg-wordpress:before {
+    content: "\e909";
+  }
+.ofg-stackoverflow:before {
+    content: "\e90a";
+  }
+.ofg-github:before {
+    content: "\e90b";
+  }
+.ofg-youtube:before {
+    content: "\e90c";
+  }
+.ofg-linkedin:before {
+    content: "\e90d";
+  }
+.ofg-facebook:before {
+    content: "\e90e";
+  }
+.ofg-google:before {
+    content: "\e90f";
+  }
+.ofg-twitter:before {
+    content: "\e910";
+  }
+:root {
+  --principalGray: #4a4a4a;
+  --secondGray: #f5f5f5;
+  --omarefgYellow: #ded706;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #4a4a4a;
+  color: var(--principalGray);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}

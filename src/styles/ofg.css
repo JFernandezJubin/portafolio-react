@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'ofg';
-    src:  url('../fonts/ofg.eot');
-    src:  url('../fonts/ofg.eot') format('embedded-opentype'),
-          url('../fonts/ofg.ttf') format('truetype'),
-          url('../fonts/ofg.woff') format('woff');
+    src:  url('styles/fonts/ofg.eot');
+    src:  url('styles/fonts/ofg.eot') format('embedded-opentype'),
+          url('styles/fonts/ofg.ttf') format('truetype'),
+          url('styles/fonts/ofg.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }

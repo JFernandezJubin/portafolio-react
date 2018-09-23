@@ -1,0 +1,43 @@
+.ListItem{
+    display: inline;
+    position: relative;
+    a {
+        padding: .375rem 1rem;
+        position: relative;
+        cursor: pointer;
+        text-decoration: none;
+        color: var(--principalGray);
+    }
+    a:hover {
+        background-color: var(--secondGray);
+        border-top: 1.5px solid var(--omarefgYellow);
+    }
+}
+.UList, .Dropdown {
+    text-decoration: none;
+    list-style: none;
+}
+.Dropdown {
+    position: absolute;
+    display: block;
+    left: 0;
+    min-width: 12rem;
+    padding-top: 4px;
+    position: absolute;
+    top: 100%;
+    z-index: 20;
+}
+.DropdownListItem {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.1);
+    a {
+        display: block;
+        font-size: .875rem;
+        padding: .375rem 1rem;
+        position: relative;
+        cursor: pointer;
+        text-decoration: none;
+        color: var(--principalGray);
+    }
+}
