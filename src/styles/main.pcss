@@ -1,17 +1,21 @@
-@import './navbar.pcss';
-@import './ofg.css';
+@import '/header/header-container.pcss';
+@import './header/navbar.pcss';
+@import './footer/footer.pcss';
+@import './fonts/ofg.css';
 
 :root {
-  --principalGray: #4a4a4a;
-  --secondGray: #f5f5f5;
-  --omarefgYellow: #ded706;
+  --darkGray: #4a4a4a;
+  --softGray: #f5f5f5;
+  --yellow: #ded706;
+  --black: #282828;
 }
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  color: var(--principalGray);
+  color: var(--darkGray);
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
+  overflow-x: hidden;
 }

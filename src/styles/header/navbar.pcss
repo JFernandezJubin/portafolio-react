@@ -1,0 +1,91 @@
+.UList {
+    float: right;
+}
+.UList, .Dropdown, .IconsDropdown {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    padding: 0;
+}
+.ListItem{
+    display: inline;
+    position: relative;
+    > a {
+        padding: .5rem 1rem;
+        position: relative;
+        cursor: pointer;
+        text-decoration: none;
+        color: var(--darkGray);
+    }
+    &:hover {
+        > .Dropdown {
+            display: inline;
+        }
+        > a {
+            background-color: var(--softGray);
+            border-top: 1.5px solid var(--yellow);
+            color: var(--black);
+        }
+        > .IconsDropdown {
+            opacity: 1;
+            right: -12px;
+            transition: 1s;
+        }
+    } 
+}
+.Dropdown {
+    position: absolute;
+    display: none;
+    left: 0;
+    min-width: 10rem;
+    padding-top: 4px;
+    top: 100%;
+    z-index: 20;
+}
+.DropdownListItem {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.1);
+    > a {
+        display: block;
+        font-size: .875rem;
+        padding: .375rem 1rem;
+        position: relative;
+        cursor: pointer;
+        text-decoration: none;
+        color: var(--darkGray);
+        white-space: nowrap;
+        &:hover {
+            color: var(--yellow);
+            transition: .3s;
+            background-color: var(--softGray);
+        }
+    }
+}
+.IconsDropdown {
+    position: absolute;
+    display: inline;
+    opacity: 0;
+    right: -600px;
+    transition: 1s;
+    min-width: 18rem;
+    padding-top: 10px;
+    top: 100%;
+    z-index: 20;
+}
+.IconsDropdownListItem {
+    display: inline-block;
+    > a {
+        font-size: .875rem;
+        padding: .375rem 1rem;
+        position: relative;
+        cursor: pointer;
+        text-decoration: none;
+        color: var(--darkGray);
+        &:hover{
+            color: var(--yellow);
+            transition: .3s;
+            background-color: var(--softGray);
+        }
+    }
+}

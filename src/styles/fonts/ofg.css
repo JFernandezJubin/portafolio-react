@@ -7,6 +7,15 @@
     font-weight: normal;
     font-style: normal;
   }
+@font-face {
+  font-family: 'ofg';
+  src:  url('styles/fonts/icomoon.eot');
+  src:  url('styles/fonts/icomoon.eot') format('embedded-opentype'),
+        url('styles/fonts/icomoon.ttf') format('truetype'),
+        url('styles/fonts/icomoon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
   
   [class^="ofg-"], [class*=" ofg-"] {
     font-family: 'ofg' !important;
@@ -86,3 +95,7 @@
   .ofg-twitter:before {
     content: "\e910";
   }
+  .ofg-instagram:before {
+    content: "\ea92";
+  }
+  
