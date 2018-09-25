@@ -9,9 +9,6 @@ class Header extends Component {
                     <Logo size='70' viewBox='70' />
                     <UList listItem={this.props.data.navbar} dataHandler={this.props.dataHandler}/>
                 </div>
-                <div>
-                    <img src={this.props.data.banner.src} alt="" width='100%'/>
-                </div>
             </header>
         );
     }

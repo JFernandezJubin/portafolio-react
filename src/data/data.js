@@ -113,7 +113,21 @@ const Data = {
                 'id': '3',
                 'className': 'Author'
             }
-        ]
+        ],
+        'main': {
+            'banner': {
+                'src': Banner,
+                'alt': ''
+            },
+            'about': {
+                'title': 'Sobre mi',
+                'text': 'Hi, I\'m Omar! I\'m a Front-end| Developer using React.js to create amazing apps.\nI believe websites are an indispensable tool for any industry, sometimes it\'s the first experience customers get, and I enjoy building software that make that experience really positive.\nI combine HTML, CSS & Javascript, always using the best practices to build fully functional and responsive websites, if you\'re interested in working with me don\'t hesitate to get in touch',
+                'words': ['Web', 'JavaScript', 'Front-end']
+            },
+            'last_posts': [
+
+            ]
+        }
     },
     'en': {
         'header': {
@@ -192,11 +206,7 @@ const Data = {
                         }
                     ]
                 }
-            ],
-            'banner': {
-                'src': Banner,
-                'alt': ''
-            }
+            ]
         },
         'footer': [
             {
@@ -227,7 +237,21 @@ const Data = {
                 'id': '3',
                 'className': 'Author'
             }
-        ]
+        ],
+        'main': {
+            'banner': {
+                'src': Banner,
+                'alt': ''
+            },
+            'about': {
+                'title': 'About',
+                'text': 'Hi, I\'m Omar! I\'m a Front-end| Developer using React.js to create amazing apps.\nI believe websites are an indispensable tool for any industry, sometimes it\'s the first experience customers get, and I enjoy building software that make that experience really positive.\nI combine HTML, CSS & Javascript, always using the best practices to build fully functional and responsive websites, if you\'re interested in working with me don\'t hesitate to get in touch',
+                'words': ['Web', 'JavaScript', 'Front-end']
+            },
+            'last_posts': [
+
+            ]
+        }
     }
 };
 
