@@ -121,7 +121,7 @@ const Data = {
             },
             'about': {
                 'title': 'Sobre mi',
-                'text': 'Hi, I\'m Omar! I\'m a Front-end| Developer using React.js to create amazing apps.\nI believe websites are an indispensable tool for any industry, sometimes it\'s the first experience customers get, and I enjoy building software that make that experience really positive.\nI combine HTML, CSS & Javascript, always using the best practices to build fully functional and responsive websites, if you\'re interested in working with me don\'t hesitate to get in touch',
+                'text': '¡Hola, mi nombre es Omar! Soy un desarrollador Front-end| que utiliza React.js para crear aplicaciones increíbles.\nCreo que los sitios web son una heramiento indispensable para cualquier industria, a veces es el primer contacto que el usuario experimenta con la empresa, y disfruto construir software para que esa experiencia sea realmente positiva.\nCombino HTML, CSS y JavaScript, siempre utilizando las mejores practicas para construir sitios completamente funcionales y con responsive design, si estás interesado en trabajar conmigo no dudes en ponerte en contacto.',
                 'words': ['Web', 'JavaScript', 'Front-end']
             },
             'last_posts': [
@@ -245,7 +245,7 @@ const Data = {
             },
             'about': {
                 'title': 'About',
-                'text': 'Hi, I\'m Omar! I\'m a Front-end| Developer using React.js to create amazing apps.\nI believe websites are an indispensable tool for any industry, sometimes it\'s the first experience customers get, and I enjoy building software that make that experience really positive.\nI combine HTML, CSS & Javascript, always using the best practices to build fully functional and responsive websites, if you\'re interested in working with me don\'t hesitate to get in touch',
+                'text': 'Hi, I\'m Omar! I\'m a Front-end| Developer using React.js to create amazing apps.\nI believe websites are an indispensable tool for any industry, sometimes it\'s the first experience customers get, and I enjoy building software that make that experience really positive.\nI combine HTML, CSS & Javascript, always using the best practices to build fully functional and responsive websites, if you\'re interested in working with me don\'t hesitate to get in touch.',
                 'words': ['Web', 'JavaScript', 'Front-end']
             },
             'last_posts': [
